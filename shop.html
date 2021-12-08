@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <title>Anna Mary's Macrame</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/shop.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Karma:400,600|Oswald:400,700" rel="stylesheet">
 </head>
 
 <body>
-  <figure>
-  <h1 class="logo" aria-label="AM logo"><img src="images/logo.svg"></h1>
   <nav role="navigation">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="shop.html">Shop</a></li>
-      <li><a href="cart.html">Cart</a></li>
-    </ul>
+      <li class="logo" aria-label="AM logo"><img src="images/logo.svg"></li>
+      <div class="pages">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
   </nav>
-  </figure>
 
 <main>
   <figure>
@@ -53,10 +53,14 @@
 
 </main>
 
-  <footer>
-    <h1 class="logo" aria-label="AM logo"><img src="images/logo.svg"></h1>
-    <img src="images/instagram.svg" alt="Instagram Icon">
-    <img src="images/facebook.svg" alt="Facebook Icon">
-  </footer>
+<footer>
+  <ul>
+    <li class="logo" aria-label="AM logo"><img src="images/logo.svg"></li>
+    <div class="socials">
+      <li class="instagram" aria-label="instagram"><img src="images/instagram.svg" alt="Instagram Icon"></li>
+      <li class="facebook" aria-label="facebook"><img src="images/facebook.svg" alt="Facebook Icon"></li>
+    </div>
+  </ul>
+</footer>
 
   </body>

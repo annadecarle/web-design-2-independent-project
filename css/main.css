@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Karma, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+.li a {
+  display: block;
+  padding: 8px;
+  background-color: grey;
+}

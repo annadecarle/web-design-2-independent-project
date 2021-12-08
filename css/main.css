@@ -9,18 +9,59 @@ html {
 }
 
 nav {
-list-style-type: none;
-margin: 0;
-padding: 0;
+  background-color: #C1E1C1;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
 }
 
 li {
-  float: left;
   display: inline;
 }
 
 .li a {
   display: block;
   padding: 8px;
-  background-color: grey;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: minmax(150px, 60%) 1fr;
+}
+
+figure {
+  margin-left: 1rem;
+}
+
+h2 {
+  margin: 0;
+
+}
+
+p {
+  padding-top: 0;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #C1E1C1;
+  display: block;
+}
+
+.logo {
+  float: left;
+}
+
+.socials {
+  float: right;
+}
+
+.pages {
+  float: right;
 }

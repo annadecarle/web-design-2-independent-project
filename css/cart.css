@@ -7,3 +7,58 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+nav {
+  background-color: #C1E1C1;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+li {
+  display: inline;
+}
+
+.li a {
+  display: block;
+  padding: 8px;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #C1E1C1;
+  display: block;
+}
+
+.logo {
+  float: left;
+}
+
+.socials {
+  float: right;
+}
+
+.pages a {
+  float: right;
+  border: none;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pages a:hover {
+  background: #f1f1f1;
+  color: #4CAF50;
+  transition: all 0.4s
+}

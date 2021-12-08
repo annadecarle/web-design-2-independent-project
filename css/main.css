@@ -62,11 +62,27 @@ footer {
   float: right;
 }
 
-.pages {
+.pages a {
   float: right;
+  border: none;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-a {
+.pages a:hover {
+  background: #f1f1f1;
+  color: #4CAF50;
+  transition: all 0.4s
+}
+
+.shop {
   background-color: #4CAF50;
   border: none;
   font-size: 30px;
@@ -80,7 +96,7 @@ a {
   cursor: pointer;
 }
 
-a:hover {
+.shop:hover {
   background: #f1f1f1;
   color: #4CAF50;
   transition: all 0.4s

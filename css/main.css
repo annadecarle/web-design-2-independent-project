@@ -11,11 +11,11 @@ html {
 nav {
   margin: 0;
   height: 150px;
-  background-color: #c1e1c1;
+  background-color: #fff;
   list-style-type: none;
 }
 
-ul {
+ol {
   padding: 1rem;
 }
 
@@ -37,7 +37,7 @@ body {
 header {
   margin: 0;
   height: 750px;
-  background-color: #;
+  background-color: #f1f1f1;
   padding-left: 5rem;
   display: grid;
   grid-template-columns: minmax(150px, 50%) 1fr;
@@ -50,18 +50,18 @@ header {
 figure {
   margin: 0;
   padding: 1rem;
-  background-color: #f5f5f5;
+  background-color: #c8f7c8;
 }
 
 h1 {
   font-size: 7rem;
-  line-height: 7rem;
+  line-height: 6rem;
 }
 
 .text h2 {
   color: #4caf50;
   font-size: 3em;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   margin: 0;
 }
 

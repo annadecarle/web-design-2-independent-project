@@ -34,7 +34,7 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-header {
+.banner {
   margin: 0;
   height: 750px;
   background-color: #f1f1f1;
@@ -59,7 +59,7 @@ h1 {
 }
 
 .text h2 {
-  color: #4caf50;
+  color: black;
   font-size: 3em;
   padding-bottom: 2rem;
   margin: 0;
